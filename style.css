@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgba(173, 216, 230, 0.29);
+}
+
+h1{
+    color: rgb(128, 3, 80);
+    text-align: center;
+    margin: 12px 15px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    border: 2px solid black;
+    width: 700px;
+    background-color: blue;
+}
+
+ul{
+    display: grid;
+    place-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    border: 3px solid black;
+    border-radius: 100px;
+    background-color: white;
+}
+
+ul:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
