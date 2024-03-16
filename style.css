@@ -3,10 +3,11 @@
     padding: 0px;
 }
 
+/* applying css to the body  */
 body{
     display: grid;
     place-items: center;
-    background-color: rgba(173, 216, 230, 0.29);
+    background-color: rgba(18, 175, 227, 0.29);
 }
 
 h1{
@@ -25,7 +26,7 @@ h2{
     grid-template-columns:repeat(7,1fr);
     border: 2px solid black;
     width: 700px;
-    background-color: blue;
+    background-color: rgb(39, 39, 151);
 }
 
 ul{
