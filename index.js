@@ -61,6 +61,7 @@ function check(player) {
 
 //playing
 document.querySelectorAll(".column").forEach((e) => {
+    // adding a event listener for the click function
     e.addEventListener("click", () => {
 
         sum = eval(`val_${e.id}`)
